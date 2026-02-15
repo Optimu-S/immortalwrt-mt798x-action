@@ -21,6 +21,7 @@ on:
 
 env:
   #REPO_URL: https://github.com/coolsnowwolf/lede
+  #REPO_URL: https://github.com/ZirrorDmage/immortalwrt-mt798x
   REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
   #REPO_BRANCH: master
   REPO_BRANCH: openwrt-21.02
@@ -37,7 +38,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-20.04
 
     steps:
     - name: Checkout
